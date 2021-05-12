@@ -309,5 +309,98 @@ namespace XUnitTestProject2
             bool? result = obj.GetFlag();
             Assert.NotNull(result);
         }
+        [Fact]
+        public void Dispose_0_1_4_5_True()
+        {
+            ulong value = 32;
+            try
+            {
+                MultipleBinaryFlag obj = new MultipleBinaryFlag(value, true);
+                obj.Dispose();
+                Assert.True(true);
+            }
+            catch (Exception)
+            {
+                Assert.False(true);
+            }
+
+        }
+        [Fact]
+        public void ResetFlag_0_1_4_5_False()
+        {
+            ulong value = 32;
+            try
+            {
+                MultipleBinaryFlag obj = new MultipleBinaryFlag(value, false);
+                obj.Dispose();
+                Assert.True(true);
+            }
+            catch (Exception)
+            {
+                Assert.False(true);
+            }
+        }
+        [Fact]
+        public void Dispose_0_1_2_4_5_True()
+        {
+            ulong value = 64;
+            try
+            {
+                MultipleBinaryFlag obj = new MultipleBinaryFlag(value, true);
+                obj.Dispose();
+                Assert.True(true);
+            }
+            catch (Exception)
+            {
+                Assert.False(true);
+            }
+
+        }
+        [Fact]
+        public void ResetFlag_0_1_2_4_5_False()
+        {
+            ulong value = 64;
+            try
+            {
+                MultipleBinaryFlag obj = new MultipleBinaryFlag(value, false);
+                obj.Dispose();
+                Assert.True(true);
+            }
+            catch (Exception)
+            {
+                Assert.False(true);
+            }
+        }
+        [Fact]
+        public void Dispose_0_1_2_3_4_5_True()
+        {
+            ulong value = 67;
+            try
+            {
+                MultipleBinaryFlag obj = new MultipleBinaryFlag(value, true);
+                obj.Dispose();
+                Assert.True(true);
+            }
+            catch (Exception)
+            {
+                Assert.False(true);
+            }
+
+        }
+        [Fact]
+        public void ResetFlag_0_1_2_3_4_5_False()
+        {
+            ulong value = 67;
+            try
+            {
+                MultipleBinaryFlag obj = new MultipleBinaryFlag(value, false);
+                obj.Dispose();
+                Assert.True(true);
+            }
+            catch (Exception)
+            {
+                Assert.False(true);
+            }
+        }
     }
 }
