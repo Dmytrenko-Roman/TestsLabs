@@ -5627,11 +5627,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\GH\\TestsLabs\\2\\XUnitTestProject2\\XUnitTestProject2\\XUnitTestProject2.csproj",
+      "projectUniqueName": "D:\\GH\\TestsLabs\\WBT\\XUnitTestProject2\\XUnitTestProject2\\XUnitTestProject2.csproj",
       "projectName": "XUnitTestProject2",
-      "projectPath": "D:\\GH\\TestsLabs\\2\\XUnitTestProject2\\XUnitTestProject2\\XUnitTestProject2.csproj",
+      "projectPath": "D:\\GH\\TestsLabs\\WBT\\XUnitTestProject2\\XUnitTestProject2\\XUnitTestProject2.csproj",
       "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-      "outputPath": "D:\\GH\\TestsLabs\\2\\XUnitTestProject2\\XUnitTestProject2\\obj\\",
+      "outputPath": "D:\\GH\\TestsLabs\\WBT\\XUnitTestProject2\\XUnitTestProject2\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
