@@ -261,5 +261,53 @@ namespace XUnitTestProject2
                 Assert.False(true);
             }
         }
+        [Fact]
+        public void GetFlag_0_1_2_4_11_True()
+        {
+            ulong value = 30;
+            MultipleBinaryFlag obj = new MultipleBinaryFlag(value, true);
+            bool? result = obj.GetFlag();
+            Assert.NotNull(result);
+        }
+        [Fact]
+        public void GetFlag_0_1_2_4_11_False()
+        {
+            ulong value = 30;
+            MultipleBinaryFlag obj = new MultipleBinaryFlag(value, false);
+            bool? result = obj.GetFlag();
+            Assert.NotNull(result);
+        }
+        [Fact]
+        public void GetFlag_0_1_5_6_8_11_True()
+        {
+            ulong value = 64;
+            MultipleBinaryFlag obj = new MultipleBinaryFlag(value, true);
+            bool? result = obj.GetFlag();
+            Assert.NotNull(result);
+        }
+        [Fact]
+        public void GetFlag_0_1_5_6_8_11_False()
+        {
+            ulong value = 64;
+            MultipleBinaryFlag obj = new MultipleBinaryFlag(value, false);
+            bool? result = obj.GetFlag();
+            Assert.NotNull(result);
+        }
+        [Fact]
+        public void GetFlag_0_1_5_9_10_11_True()
+        {
+            ulong value = 68;
+            MultipleBinaryFlag obj = new MultipleBinaryFlag(value, true);
+            bool? result = obj.GetFlag();
+            Assert.NotNull(result);
+        }
+        [Fact]
+        public void GetFlag_0_1_5_9_10_11_False()
+        {
+            ulong value = 68;
+            MultipleBinaryFlag obj = new MultipleBinaryFlag(value, false);
+            bool? result = obj.GetFlag();
+            Assert.NotNull(result);
+        }
     }
 }
